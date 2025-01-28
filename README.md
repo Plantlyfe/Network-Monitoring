@@ -1,4 +1,12 @@
-# Network-Monitoring
+# Network Monitoring with Zabbix and SNMP
+
+This repository provides a complete guide to setting up a network monitoring solution using **Zabbix** and **SNMP** to monitor key metrics of network devices like routers, switches, and firewalls. The project includes Zabbix server installation, SNMP configuration for various devices, and creating custom monitoring templates for key network parameters.
+
+## Key Features:
+- Zabbix server installation and configuration
+- SNMP configuration for network devices
+- Custom Zabbix templates for CPU, memory, bandwidth, and uptime monitoring
+- Automated scripts for SNMP checks and Zabbix backups
 
 ### **Zabbix for SNMP Monitoring**
 - Monitoring **CPU, memory, bandwidth usage** for all network devices.
@@ -15,17 +23,6 @@
 📄 [View Splunk Setup](monitoring/splunk-setup.md)
 
 ---
-
-# Network Monitoring with Zabbix and SNMP
-
-This repository provides a complete guide to setting up a network monitoring solution using **Zabbix** and **SNMP** to monitor key metrics of network devices like routers, switches, and firewalls. The project includes Zabbix server installation, SNMP configuration for various devices, and creating custom monitoring templates for key network parameters.
-
-## Key Features:
-- Zabbix server installation and configuration
-- SNMP configuration for network devices
-- Custom Zabbix templates for CPU, memory, bandwidth, and uptime monitoring
-- Automated scripts for SNMP checks and Zabbix backups
-
 ## Installation Guide:
 ### 1. [Zabbix Server Setup](zabbix-server-setup/zabbix-server-installation.md)
    - Install Zabbix on Ubuntu 20.04
