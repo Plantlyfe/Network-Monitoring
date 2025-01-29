@@ -2,22 +2,29 @@
 
 This repository provides a complete overview to my network monitoring solution using **Zabbix** and **Splunk** to monitor key metrics of network devices. The project involved Linux server configuration and installation, SNMP configuration, and creating custom monitoring templates for key network parameters.
 
-### **Zabbix for SNMP Monitoring**
-- Zabbix server configuration and agent installation
-- Configure SNMPv3 on network devices to allow Zabbix to pull monitoring data for secure network monitoring
-- Paessler SNMP Tester for troubleshooting
-- Monitoring **CPU, memory, bandwidth usage, uptime etc** for all network devices.
-- Custom **Zabbix dashboards** for real-time insights.
+## **Zabbix for SNMP Monitoring**
+- Installed Zabbix on Ubuntu Server VM and installed Zabbix agent on both Linux servers & client work stations.
+- Configured SNMPv3 on network devices to allow Zabbix to pull monitoring data for secure network monitoring.
+- Initially had issues with network device data poplulating in Zabbix. Used Paessler SNMP Tester for troubleshooting. Determined issue was with SNMPv3 configurations which was corrected.
+- Enables Monitoring of **CPU, memory, bandwidth usage, uptime etc** for all network devices.
+- Created custom **Zabbix dashboards** for real-time insights.
 
 📄 [View Zabbix Setup](monitoring/zabbix-setup.md)
 
+### Steps Taken
+Install Zabbix on Ubuntu server and Zabbix agent on workstations
+Configured SNMPv3 for secure networking Monitoring on 
 
-### **Splunk for Syslog Analysis**
+## **Splunk for Syslog Analysis**
+- Installed Splunk on Ubuntu Server VM and installed Splunk Universal forwarder on client work stations.
+- Enabled HTTPS encryption for Splunk Web interface (HTTP by default)
+- Configured Syslog on network devices to send traps to Splunk Server. Also installed Cisco Network Add-ons in Splunk Web Interface.
 - Collecting logs from **Cisco devices, Windows Server, and Linux VMs**.
 - Creating dashboards for **Syslog messages, failed login attempts, and network activity, etc**.
 
 ![View Splunk Setup](https://github.com/Plantlyfe/Network-Monitoring/blob/main/Splunk%20Syslog%20Dashboard%20-%20Cisco.png)
 
+### Steps Taken
 
 ## Screenshots:
 - ![Zabbix Dashboard](images/zabbix-dashboard.png)
