@@ -1,4 +1,4 @@
-# Network Monitoring with Zabbix and SNMP
+# Network Monitoring with Zabbix and Splunk
 
 This repository provides a complete overview to my network monitoring solution using **Zabbix** and **Splunk** to monitor key metrics of network devices. The project involved Linux server configuration and installation, SNMP configuration, and creating custom monitoring templates for key network parameters.
 
