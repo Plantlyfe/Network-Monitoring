@@ -20,7 +20,9 @@ This repository provides a complete guide to setting up a network monitoring sol
 - Collecting logs from **Cisco devices, Windows Server, and Linux VMs**.
 - Creating dashboards for **failed login attempts, VPN connections, and network activity**.
 
-📄 [View Splunk Setup](https://github.com/Plantlyfe/Network-Monitoring/blob/main/Splunk%20Syslog%20Dashboard%20-%20Cisco.png)
+📄 '
+
+![View Splunk Setup](https://github.com/Plantlyfe/Network-Monitoring/blob/main/Splunk%20Syslog%20Dashboard%20-%20Cisco.png)
 
 ---
 ## Installation Guide:
