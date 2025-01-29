@@ -5,8 +5,9 @@ This repository provides a complete overview to my network monitoring solution u
 ## **Zabbix for SNMP Monitoring**
 - Installed Zabbix on Ubuntu Server VM and installed Zabbix agent on both Linux servers & client work stations.
 - Configured SNMPv3 on network devices to allow Zabbix to pull monitoring data for secure network monitoring.
+- Added hosts & created hostgroups and templates to group devices
 - Initially had issues with network device data poplulating in Zabbix. Used Paessler SNMP Tester for troubleshooting. Determined issue was with SNMPv3 configurations which was corrected.
-- Enables Monitoring of **CPU, memory, bandwidth usage, uptime etc** for all network devices.
+- Monitoring of **CPU, memory, bandwidth usage, uptime etc** for all network devices are now active.
 - Created custom **Zabbix dashboards** for real-time insights.
 
 📄 [View Zabbix Setup](monitoring/zabbix-setup.md)
