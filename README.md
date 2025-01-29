@@ -20,7 +20,3 @@ This repository provides a complete overview to my network monitoring solution u
 - Creating dashboards for **Syslog messages, failed login attempts, and network activity, etc**.
 
 ![View Splunk Setup](https://github.com/Plantlyfe/Network-Monitoring/blob/main/Splunk%20Syslog%20Dashboard%20-%20Cisco.png)
-
-## Screenshots:
-- ![Zabbix Dashboard](images/zabbix-dashboard.png)
-- ![SNMP Bandwidth Graph](images/snmp-graph.png)
