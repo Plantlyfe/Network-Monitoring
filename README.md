@@ -20,8 +20,6 @@ This repository provides a complete guide to setting up a network monitoring sol
 - Collecting logs from **Cisco devices, Windows Server, and Linux VMs**.
 - Creating dashboards for **failed login attempts, VPN connections, and network activity**.
 
-📄 '
-
 ![View Splunk Setup](https://github.com/Plantlyfe/Network-Monitoring/blob/main/Splunk%20Syslog%20Dashboard%20-%20Cisco.png)
 
 ---
@@ -36,9 +34,6 @@ This repository provides a complete guide to setting up a network monitoring sol
 ### 3. [Zabbix Monitoring Templates](monitoring-templates/zabbix-snmp-template.xml)
    - Import pre-configured templates into Zabbix for monitoring bandwidth, CPU, memory, and uptime
 
-### 4. [Automated Scripts](scripts/)
-   - Use `snmp-check.sh` to verify SNMP functionality across devices
-   - Use `zabbix-backup.sh` to automate backups of Zabbix configurations
 
 ## Screenshots:
 - ![Zabbix Dashboard](images/zabbix-dashboard.png)
