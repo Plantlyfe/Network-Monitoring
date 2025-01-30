@@ -12,6 +12,19 @@ This repository provides a complete overview to my network monitoring solution u
 
 📄 [View Zabbix Setup](monitoring/zabbix-setup.md)
 
+### **Zabbix Proxmox Dashboard**
+- Created a new User and an API token in Proxmox with the necessary access levels to conduct monitoring. New user created for extra layer of security.
+- Copied the resulting Token ID and Secret Key into the newly added Proxmox host macros {$PVE.TOKEN.ID} and {$PVE.TOKEN.SECRET}.
+- At first recived an error stating: *Proxmox VE: API service not available* 
+- After some research went back and deleted the Proxmox Host Entry. Re-added the host but this time added the {$PVE.URL.HOST} macro and set the value to the IP address of the Proxmox API host.
+- Now able to successfully monitor all invidivudal VMs in Proxmox.
+- Monitoring is dynamic and automatically adds any new VMs created to the dashboard
+
+
+
+
+### **Zabbix Network Devices Dashboard**
+
 ## **Splunk for Syslog Analysis**
 - Installed Splunk on Ubuntu Server VM and installed Splunk Universal forwarder on client work stations.
 - Enabled HTTPS encryption for Splunk Web interface (HTTP by default)
