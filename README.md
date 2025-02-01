@@ -18,7 +18,6 @@ This repository provides a complete overview to my network monitoring solution u
 - At first recived an error stating: *Proxmox VE: API service not available* 
 - After some research went back and deleted the Proxmox Host Entry. Re-added the host but this time added the {$PVE.URL.HOST} macro and set the value to the IP address of the Proxmox API host.
 - Now able to successfully monitor all invidivudal VMs in Proxmox.
-- Monitoring is dynamic and automatically adds any new VMs created to the dashboard
 
 
 ![View Proxmox Dashboard 1](https://github.com/Plantlyfe/Network-Monitoring/blob/main/Proxmox%20Dashboard%201.png)
