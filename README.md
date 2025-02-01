@@ -21,6 +21,8 @@ This repository provides a complete overview to my network monitoring solution u
 - Monitoring is dynamic and automatically adds any new VMs created to the dashboard
 
 
+![View Proxmox Dashboard 1](https://github.com/Plantlyfe/Network-Monitoring/blob/main/Proxmox%20Dashboard%201.png)
+![View Proxmox Dashboard 2](https://github.com/Plantlyfe/Network-Monitoring/blob/main/Proxmox%20Dashboard%202.png)
 
 
 ### **Zabbix Network Devices Dashboard**
