@@ -8,9 +8,9 @@ This repository provides a complete overview to my network monitoring solution u
 - Added hosts & created hostgroups and templates to group devices
 - Initially had issues with network device data poplulating in Zabbix. Used Paessler SNMP Tester for troubleshooting. Determined issue was with SNMPv3 configurations which was corrected.
 - Monitoring of **CPU, memory, bandwidth usage, uptime etc** for all network devices are now active.
-- Created custom **Zabbix dashboards** for real-time insights.
+- Created custom **Zabbix dashboards** for real-time insights of VMs, Network Devices, Servers, etc
 
-📄 [View Zabbix Setup](monitoring/zabbix-setup.md)
+![View Zabbix Setup](https://github.com/Plantlyfe/Network-Monitoring/blob/main/Zabbix%20Global%20Overview.png)
 
 ### **Zabbix Proxmox Dashboard**
 - Created a new User and an API token in Proxmox with the necessary access levels to conduct monitoring. New user created for extra layer of security.
