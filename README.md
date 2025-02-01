@@ -25,6 +25,12 @@ This repository provides a complete overview to my network monitoring solution u
 
 
 ### **Zabbix Network Devices Dashboard**
+- Configured SNMPv3 on both Cisco Router and Switches for secure networking monitoring
+- Used Paessler SNMP tester to trouble issue of data not being sent to Zabbix Server. Determined issue was with intial SNMPv3 configurations which was then corrected
+- Unable to configure SNMP on TP-Link Access Point, instead setup ping monitor to confrim device is up.
+
+![View Network Devices Dashboard](https://github.com/Plantlyfe/Network-Monitoring/blob/main/Network%20Devices%20Dashboard.png)
+
 
 ## **Splunk for Syslog Analysis**
 - Installed Splunk on Ubuntu Server VM and installed Splunk Universal forwarder on client work stations.
