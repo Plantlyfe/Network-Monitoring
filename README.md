@@ -3,11 +3,10 @@
 This repository provides a complete overview to my network monitoring solution using **Zabbix** and **Splunk** to monitor key metrics of network devices. The project involved Linux server configuration and installation, SNMP configuration, software installation on workstations and creating custom monitoring templates for key network parameters.
 
 ## **Zabbix for SNMP Monitoring**
-- Installed Zabbix on Ubuntu Server VM and installed Zabbix agent on both Linux servers & client work stations.
-- Configured SNMPv3 on network devices to allow Zabbix to pull monitoring data for secure network monitoring.
-- Added hosts & created hostgroups and templates to group devices
-- Initially had issues with network device data poplulating in Zabbix. Used Paessler SNMP Tester for troubleshooting. Determined issue was with SNMPv3 configurations which was corrected.
-- Monitoring of **CPU, memory, bandwidth usage, uptime etc** for all network devices are now active.
+- Installed Zabbix on Ubuntu Server VM (Zabbix supports SNMP versions v1, v2c, and v3 and SNMP trap collection)
+- Installed ZabbixAagent on each individual Linux server & client work station. Zabbix agent is seperate software that fowards network information to a Zabbix Server IP address.
+- Within Zabbix server, added hosts (workstations & network devices) & created hostgroups (ex. Linux OS, Windows OS, Hypervisors, etc) and templates to group devices
+- Monitoring of **CPU, memory, bandwidth usage, uptime etc** for all network devices & workstations are now active.
 - Created custom **Zabbix dashboards** for real-time insights of VMs, Network Devices, Servers, etc
 
 ![View Zabbix Setup](https://github.com/Plantlyfe/Network-Monitoring/blob/main/Zabbix%20Global%20Overview.png)
@@ -25,8 +24,8 @@ This repository provides a complete overview to my network monitoring solution u
 
 
 ### **Zabbix Network Devices Dashboard**
-- Configured SNMPv3 on both Cisco Router and Switches for secure networking monitoring
-- Used Paessler SNMP tester to trouble issue of data not being sent to Zabbix Server. Determined issue was with intial SNMPv3 configurations which was then corrected
+- Configured SNMPv3 on both Cisco Router and Switches for secure networking monitoring.
+- Initially had issues with network device data **_not_** poplulating in Zabbix. Used Paessler SNMP Tester to troubleshoot. Determined issue was with intial SNMPv3 configurations which was then corrected
 - Unable to configure SNMP on TP-Link Access Point, instead setup ping monitor to confrim device is up.
 
 ![View Network Devices Dashboard](https://github.com/Plantlyfe/Network-Monitoring/blob/main/Network%20Devices%20Dashboard.png)
