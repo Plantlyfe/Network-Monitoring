@@ -35,6 +35,7 @@ This repository provides a complete overview to my network monitoring solution u
 - Installed Splunk on Ubuntu Server VM and installed Splunk Universal forwarder on each individual client work stations.
 - Enabled HTTPS encryption for Splunk Web interface (HTTP by default)
 - Configured Syslog on network devices to send traps to Splunk Server. Also installed Cisco Network Add-ons in Splunk Web Interface.
+- Initially Splunk Server did not collect any logs. During troubleshooting steps, verifed configuration on devices were accurate. Determined that splunk universal forwarder was not  installed correctly on splunk sever. Issue resolved after reinstalling universal forwarder correctly.
 - Now collecting logs from **Cisco devices, Windows Server, and Linux VMs**.
 - Creating dashboards for **Syslog messages, failed login attempts, and network activity, etc**.
 
