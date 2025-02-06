@@ -34,8 +34,7 @@ This repository provides a complete overview to my network monitoring solution u
 
 
 ## **Splunk for Syslog Analysis**
-<!-- ![Splunk Logo](https://github.com/Plantlyfe/Network-Monitoring/blob/main/logo-splunk-acc-rgb-k.png) -->
-<!-- <img src="https://github.com/Plantlyfe/Network-Monitoring/blob/main/logo-splunk-acc-rgb-k.png" width="800" height="150">-->
+<img src="https://github.com/Plantlyfe/Network-Monitoring/blob/main/logo-splunk-acc-rgb-k.png" width="307.18" height="121.93">
 
 - Installed Splunk on Ubuntu Server VM and installed Splunk Universal forwarder on each individual client work stations.
 - Enabled HTTPS encryption for Splunk Web interface (HTTP by default)
