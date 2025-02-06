@@ -3,6 +3,8 @@
 This repository provides a complete overview to my network monitoring solution using **Zabbix** and **Splunk** to monitor key metrics of network devices. The project involved Linux server configuration and installation, SNMP configuration, software installation on workstations and creating custom monitoring templates for key network parameters.
 
 ## **Zabbix for SNMP Monitoring**
+<img src="https://github.com/Plantlyfe/Network-Monitoring/blob/main/Zabbix_logo-CMYK.png" width="400" height="100">
+
 - Installed Zabbix on Ubuntu Server VM (Zabbix supports SNMP versions v1, v2c, and v3 and SNMP trap collection)
 - Installed ZabbixAagent on each individual Linux server & client work station. Zabbix agent is seperate software that fowards network information to a Zabbix Server IP address.
 - Within Zabbix server, added hosts (workstations & network devices) & created hostgroups (ex. Linux OS, Windows OS, Hypervisors, etc) and templates to group devices
