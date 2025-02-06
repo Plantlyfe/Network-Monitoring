@@ -27,7 +27,7 @@ This repository provides a complete overview to my network monitoring solution u
 
 ### **Zabbix Network Devices Dashboard**
 - Configured SNMPv3 on both Cisco Router and Switches for secure networking monitoring.
-- Initially had issues with network device data **_not_** poplulating in Zabbix. Used Paessler SNMP Tester to troubleshoot. Determined issue was with intial SNMPv3 configurations which was then corrected
+- Initially had issues with network device data **_not_** poplulating in Zabbix. Used Paessler SNMP Tester to troubleshoot. Determined issue was with intial SNMPv3 configurations which was then corrected. SNMP Host IP address was configured incorrectly.
 - Unable to configure SNMP on TP-Link Access Point, instead setup ping monitor on Zabbix to confrim if Access Point is up or down.
 
 ![View Network Devices Dashboard](https://github.com/Plantlyfe/Network-Monitoring/blob/main/Network%20Devices%20Dashboard.png)
